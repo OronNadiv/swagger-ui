@@ -32,7 +32,7 @@ export default class ArrayModel extends Component {
 
     const titleEl = title &&
       <span className="model-title">
-        <span className="model-title__text">{ title }</span>
+        {/*<span className="model-title__text">{ title }</span>*/}
       </span>
 
     /*

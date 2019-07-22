@@ -19,7 +19,7 @@ export default class BaseLayout extends React.Component {
     let InfoContainer = getComponent("InfoContainer", true)
     let VersionPragmaFilter = getComponent("VersionPragmaFilter")
     let Operations = getComponent("operations", true)
-    let Models = getComponent("Models", true)
+    // let Models = getComponent("Models", true)
     let Row = getComponent("Row")
     let Col = getComponent("Col")
     let Errors = getComponent("errors", true)
@@ -113,11 +113,11 @@ export default class BaseLayout extends React.Component {
                 <Operations/>
               </Col>
             </Row>
-            <Row>
-              <Col mobile={12} desktop={12} >
-                <Models/>
-              </Col>
-            </Row>
+            {/*<Row>*/}
+            {/*  <Col mobile={12} desktop={12} >*/}
+            {/*    <Models/>*/}
+            {/*  </Col>*/}
+            {/*</Row>*/}
           </VersionPragmaFilter>
         </div>
       )
