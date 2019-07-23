@@ -48,7 +48,7 @@
     "security-audit": "run-s -sc security-audit:all security-audit:prod",
     "security-audit:prod": "npm-audit-ci-wrapper -p -t low",
     "security-audit:all": "npm-audit-ci-wrapper -t moderate",
-    "serve-static": "http-server dist/ -i -a 0.0.0.0 -p 3002",
+    "serve-static": "./bin/serve-static.sh",
     "start": "npm-run-all --parallel serve-static open-static"
   },
   "dependencies": {
